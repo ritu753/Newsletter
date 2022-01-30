@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    padding: .5% 4%;
+    border-bottom: .1px solid gray;
+}
+.logo{
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+.navbar h2{
+    margin-left: 40%;
+    padding: 10px;
+}
+.banner-img{
+    width: 30px;
+    width: 92%;
+    padding:1% 4%;
+}
+.para{
+    padding: 4%;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 2% 4%;
+    border-bottom: 1px solid gray;
+}
+.container-1{
+    display: flex;
+    flex-basis: 95%;
+}
+
+.info p{
+    font-size: 16px;
+}
+.info span{
+    font-size: 25px;
+    font-weight: bolder;
+    border-bottom: 1px solid gray;
+}
+.para-img img{
+    flex-basis: 30%;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+}
+.para-1{
+    flex-basis: 73%;
+}
+.para-1 h4 {
+    font-size: 25px;
+}
+.para-1 p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.para-1 a{
+    color: blueviolet;
+    font-size: 15px;
+}
+.container-2{
+    display: flex;
+    flex-basis: 95%;
+    flex-direction: row-reverse;
+}
+footer{
+    padding: 2% 4%;
+    align-items: center;
+}
+#share{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.icon-con{
+    display: flex;
+    padding-left: 36%;
+    width: 500px;
+}
+.icon-img{
+    width: 50px;
+    height: 30px;
+    padding:8px 10px;
+}
+.icons, .icons-1{
+    display: flex;
+    margin: 10px;
+    border: 1px solid black;
+    padding:2px 3px;
+    border-radius: 10px;
+}
+.app{
+    padding: 8px;
+}
+.icons p , .icons-1 p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.icons span , .icons-1 span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.icons-1{
+  background: black;
+}
+.app-1{
+    color: #fff;
+    padding: 10px;
+}
+.footer-info{
+    text-align: center;
+    padding-top: 40px;
+    line-height: 26px;
+}
+.footer-info p{
+    font-size: 18px;
+}
+.footer-info span{
+    color: #3C7CF5;;
+}
+.footer-info h6{
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+
+#last{
+    color: #CF3560;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#center{
+    font-size: 12px;
+    color: #CF3560;
+}
+@media  screen and (max-width:770px) {
+    .navbar{
+        display:inline-block;
+        width: 100%;
+    }
+    .navbar h2{
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .para{
+        font-size: 15px;
+    }
+    .container{
+       display: inline-block;
+       align-items: center;
+    }
+    .container-1, .container-2{
+        display: inline-block;
+    }
+    .info{
+        display: flex;
+    }
+    .info p{
+        font-size: 20px ;
+    }
+    .info span{
+        font-size: 20px;
+        border-bottom: none;
+        font-weight: lighter;
+        padding-left: 5px;
+    }
+    .para-img img{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .para-1 h4 {
+        font-size: 20px;
+    }
+    .para-1 p{
+        font-size: 12px;
+    }
+    .para-1 a{
+        font-size: 12px;
+    }
+    #share{
+        text-align: center;
+        font-size: 15px;
+    }
+    .icon-con{
+        padding-left:.1%;
+        width: 350px;
+    }
+    .icon-img{
+        width: 30px;
+        height: 23px;
+    }
+     .icons p , .icons-1 p{
+        font-size: 10px;
+    }
+    .icons span , .icons-1 span{
+        font-size: 15px;
+    }
+}
